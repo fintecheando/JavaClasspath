@@ -404,15 +404,13 @@ Hello, World
 [Loaded java.lang.Shutdown$Lock from /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar]
 victor@centauro:~$ 
 ```
-# 4. The java classpath used to run the program was shown in this example
-
-# 5. Let's continue creating the jar file 
+# 4. The java classpath used to run the program was shown in this example, now let's continue creating the jar file 
 ```
 victor@centauro:~$ jar cvfe HelloWorld.jar HelloWorld HelloWorld.class
 manifiesto agregado
 agregando: HelloWorld.class(entrada = 426) (salida = 288)(desinflado 32%)
 ```
-# 6. And we run it (same works for EAR and WAR files) just adding the -verbose.
+# 6. And we run it, it also works for EAR and WAR files adding the -verbose option in the loader.
 ```
 victor@centauro:~$ java -verbose -jar HelloWorld.jar 
 [Opened /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar]
@@ -843,4 +841,3 @@ Hello, World
 [Loaded java.lang.Shutdown$Lock from /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar]
 victor@centauro:~$ 
 ```
-
