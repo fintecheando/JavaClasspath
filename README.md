@@ -410,7 +410,7 @@ victor@centauro:~$ jar cvfe HelloWorld.jar HelloWorld HelloWorld.class
 manifiesto agregado
 agregando: HelloWorld.class(entrada = 426) (salida = 288)(desinflado 32%)
 ```
-# 6. And we run it, it also works for EAR and WAR files adding the -verbose option in the loader.
+# 5. And we run it, it also works for EAR and WAR files adding the -verbose option in the loader.
 ```
 victor@centauro:~$ java -verbose -jar HelloWorld.jar 
 [Opened /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar]
