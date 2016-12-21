@@ -404,4 +404,4 @@ Hello, World
 [Loaded java.lang.Shutdown$Lock from /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar]
 victor@centauro:~$ 
 ```
-# 4. The classpath was shown in this example
+# 4. The java classpath used to run the program was shown in this example
