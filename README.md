@@ -1,5 +1,13 @@
+# 1. Create a HellowWorld.java File
+```
 victor@centauro:~$ vi HelloWorld.java
+```
+# 2. Compile the HellowWorld.java file
+```
 victor@centauro:~$ javac HelloWorld.java 
+```
+# 3. Run the program using the verbose option
+```
 victor@centauro:~$ java -verbose:class HelloWorld 
 [Opened /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar]
 [Loaded java.lang.Object from /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar]
@@ -395,3 +403,5 @@ Hello, World
 [Loaded java.lang.Shutdown from /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar]
 [Loaded java.lang.Shutdown$Lock from /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar]
 victor@centauro:~$ 
+```
+# 4. The classpath was shown in this example
